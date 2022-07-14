@@ -1,4 +1,5 @@
 require([
+    "esri/config",
     "esri/Map",
     "esri/views/MapView",
     "esri/widgets/Directions",
@@ -6,17 +7,17 @@ require([
     "esri/widgets/Expand",
     "esri/widgets/Search",
     "esri/widgets/Locate"
-], function(Map, MapView, Directions, RouteLayer, Expand, Search, Locate) {
+], function(esriConfig, Map, MapView, Directions, RouteLayer, Expand, Search, Locate) {
     
     // Insert the API Key here (inside the double quotes) to use it for ArcgGIS JS API Routing services:
-    const apiKey = "";
+    esriConfig.apiKey = "";
 
     // Create a RouteLayer, required for Directions widget:
     const routeLayer = new RouteLayer();
 
     // Create a basemap and add the RouteLayer to it:
     const map = new Map({
-        basemap: "topo-vector",
+        basemap: "arcgis-navigation",
         layers: [routeLayer]
     });
 
@@ -31,7 +32,6 @@ require([
     // Add the RouteLayer to the Directions widget:
     let directionsWidget = new Directions({
         layer: routeLayer,
-        apiKey,
         view
     });
 
