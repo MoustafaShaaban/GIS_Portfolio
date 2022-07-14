@@ -1,0 +1,5 @@
+https://developers.arcgis.com/javascript/latest/display-your-location/
+
+https://developers.arcgis.com/javascript/latest/find-places/
+
+https://developers.arcgis.com/javascript/latest/search-for-an-address/
