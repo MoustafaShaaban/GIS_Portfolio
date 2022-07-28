@@ -5,13 +5,17 @@
 
 #### The first project is an interactive web map showing the Public Schools in Seattle:
 
-[Seattle Public Schools](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/USA_Maps_and_Analysis/Seattle/Web_Maps/Public_Schools)
+* There are two versions of this project:
+  * 1- Using the Python programming language.   (Folium)
+  * 2- Using the JavaScript programming language.   (ArcGIS JavaScript API)
 
-* In this project I used a Python package called [Folium](https://python-visualization.github.io/folium/)
+[Seattle Public Schools with Folium](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/USA_Maps_and_Analysis/Seattle/Web_Maps/Public_Schools)
 
-* According to Folium docs:
+[Seattle Public Schools with ArcGIS JavaScript API](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/USA_Maps_and_Analysis/Seattle/Web_Maps/ArcGIS_JS_API)
 
-> folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via folium.
+* In this project I used a Python package called [Folium](https://python-visualization.github.io/folium/) and the [ArcGIS JavaScript API](https://developers.arcgis.com/javascript/latest/)
+
+
 
 #### The second project contains interactive and static maps of the USA:
 
@@ -31,3 +35,16 @@
 * This project is also create using [Folium](https://python-visualization.github.io/folium/)
 
 [Washington_DC](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/USA_Maps_and_Analysis/Washington_DC/Web_Maps/Washington_DC)
+
+
+#### The fourth project contains an interactive web map built with ArcGIS JavaScript API:
+
+* This project contains two mini sub project:
+
+    [Basic Routing](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/Web_GIS/ArcGIS_JavaScript_API/Basic%20routing)
+
+    * In this project we can find the shortest path between two or more locations.
+
+    [Searching for Nearby Places](https://github.com/MoustafaShaaban/GIS_Portfolio/tree/main/Web_GIS/ArcGIS_JavaScript_API/Searching_for_places)
+
+    * In this project we can search for nearby places like hospitals, hotels, parks ...
